@@ -11,25 +11,26 @@
 int main(void)
 {
 	int a = 0;
-	int b, c;
+	int b, c, d;
 
 	for (a = 0; a <= 9 ; a++)
 	{
 		for (b = 0; b <= 9 ; b++)
 		{
-			for (c = b + 1; c <= 9 ; c++)
-			{
-				if (!(a == 1 && b == 0 && c == 1))
+			for (d = a; d <= 9 ; d++)
+				for (c = b + 1; c <= 9 ; c++)
 				{
-					putchar(',');
+					if (!(a == 0 && b == 0 && c == 1))
+					{
+						putchar(',');
+						putchar(' ');
+					}
+					putchar('0' + a);
+					putchar('0' + b);
 					putchar(' ');
+					putchar('0' + d);
+					putchar('0' + c);
 				}
-				putchar('0' + a);
-				putchar('0' + b);
-				putchar(' ');
-				putchar('0' + a);
-				putchar('0' + c);
-			}
 		}
 	}
 	putchar('\n');
