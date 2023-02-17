@@ -21,7 +21,7 @@ int main(void)
 			{
 				for (c = 0; c <= 9 ; c++)
 				{
-					if (a == d && b == c)
+					if (a == d && b >= c)
 						continue;
 					if (!(a == 0 && b == 0 && c == 1 && d == 0))
 					{
