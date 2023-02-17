@@ -12,14 +12,12 @@ int main(void)
 {
 	int a = 0;
 	int b, c;
-	int n = 1;
-	int m = 2;
 
 	for (a = 0; a <= 9 ; a++)
 	{
-		for (b = n; b <= 9 ; b++)
+		for (b = a + 1; b <= 9 ; b++)
 		{
-			for (c = m; c <= 9 ; c++)
+			for (c = b + 1; c <= 9 ; c++)
 			{
 				if (!(a == 0 && b == 1 && c == 2))
 				{
@@ -30,9 +28,7 @@ int main(void)
 				putchar('0' + b);
 				putchar('0' + c);
 			}
-			m++;
 		}
-		n++;
 	}
 	putchar('\n');
 
