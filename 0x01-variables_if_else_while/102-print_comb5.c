@@ -19,8 +19,10 @@ int main(void)
 		{
 			for (d = a; d <= 9 ; d++)
 			{
-				for (c = b + 1; c <= 9 ; c++)
+				for (c = 0; c <= 9 ; c++)
 				{
+					if (a == d && b == c)
+						continue;
 					if (!(a == 0 && b == 0 && c == 1 && d == 0))
 					{
 						putchar(',');
