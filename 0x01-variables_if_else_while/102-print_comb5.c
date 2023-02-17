@@ -18,6 +18,7 @@ int main(void)
 		for (b = 0; b <= 9 ; b++)
 		{
 			for (d = a; d <= 9 ; d++)
+			{
 				for (c = b + 1; c <= 9 ; c++)
 				{
 					if (!(a == 0 && b == 0 && c == 1 && d == 0))
@@ -31,6 +32,7 @@ int main(void)
 					putchar('0' + d);
 					putchar('0' + c);
 				}
+			}
 		}
 	}
 	putchar('\n');
