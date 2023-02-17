@@ -23,10 +23,10 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
-			putchar('0' + ch);
+			putchar('0' + a);
 			putchar('0' + b);
 		}
-		n++
+		n++;
 	}
 	putchar('\n');
 
