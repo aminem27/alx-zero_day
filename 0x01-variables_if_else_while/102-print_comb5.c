@@ -20,7 +20,7 @@ int main(void)
 			for (d = a; d <= 9 ; d++)
 				for (c = b + 1; c <= 9 ; c++)
 				{
-					if (!(a == 0 && b == 0 && c == 1))
+					if (!(a == 0 && b == 0 && c == 1 && d == 0))
 					{
 						putchar(',');
 						putchar(' ');
