@@ -9,8 +9,9 @@
  */
 int main(void)
 {
-	char *word = "_putchar"
-		for (int i = 0; i <= strlrn(word); i++)
+	char *word = "_putchar";
+	int i;
+		for (i = 0; i <= strlrn(word); i++)
 		{
 			_putchar(word[i]);
 		}
