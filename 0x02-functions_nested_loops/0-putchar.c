@@ -1,4 +1,7 @@
 #include <unistd.h>
+#include "main.h"
+#include <string.h>
+
 /**
  * main - check the code
  *
@@ -11,6 +14,7 @@ int main(void)
 		{
 			_putchar(word[i]);
 		}
+	_putchar('\n');
+
 	return (0);
 }
-
