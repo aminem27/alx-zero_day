@@ -16,13 +16,12 @@ int main(void)
 
 		aux = u2;
 		u2 = u2 + u1;
-		while (S < 4000000)
+		if (S < 4000000)
 		{
 			S = S + u2;
-			printf("s=%ld u2=%ld \n", S, u2);
 		}
 		u1 = aux;
 	}
-	printf("\n%ld\n", S);
+	printf("%ld\n", S);
 	return (0);
 }
