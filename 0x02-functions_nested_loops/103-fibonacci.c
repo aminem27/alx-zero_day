@@ -10,17 +10,16 @@ int main(void)
 {
         int i;
         long u1 = 1, u2 = 2, aux, S = 3;
-
-        for (i = 2; i < 50; i++)
-        {
-
-                aux = u2;
-                u2 = u2 + u1;
-                u1 = aux;
+	
+	for (i = 2; i < 50; i++)
+	{
+		aux = u2;
+		u2 = u2 + u1;
+		u1 = aux;
 		S = u1 + u2;
 		if (S > 4000000)
 			break;
-        }
-        printf("%ld\n", S);
-        return (0);
+	}
+	printf("%ld\n", S);
+	return (0);
 }
