@@ -21,6 +21,6 @@ int main(void)
 		u1 = aux;
 		printf(", %ld", u2);
 	}
-
+	printf("\n");
 	return (0);
 }
