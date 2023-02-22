@@ -16,6 +16,7 @@ int main(void)
 		u2 = u2 + u1;
 		S = S + u2;
 		u1 = aux;
+		printf("u1=%ld u2=%ld s=%ld \n", u1, u2, S);
 	}
 	printf("%ld\n", S);
 	return (0);
