@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * som - Check description
+ * som- Check description
  * Description: add numbers
  * Return: Nothing
  */
