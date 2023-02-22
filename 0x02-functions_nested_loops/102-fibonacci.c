@@ -11,8 +11,8 @@ int main(void)
 	int i;
 	long u1 = 1, u2 = 2, aux;
 
-	printf("%d, ", u1);
-	printf("%d", u2);
+	printf("%ld, ", u1);
+	printf("%ld", u2);
 	for (i = 2; i < 50; i++)
 	{
 
