@@ -18,7 +18,7 @@ int main(void)
                 u2 = u2 + u1;
                 u1 = aux;
 		S = u1 + u2;
-		if (S < 4000000)
+		if (S > 4000000)
 			break;
         }
         printf("%ld\n", S);
