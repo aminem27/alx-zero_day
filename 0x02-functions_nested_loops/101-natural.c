@@ -14,7 +14,7 @@ void som(void)
 	for (i = 1; i < 1024; i++)
 		if ((i % 3 == 0) || (i % 5 == 0))
 			val = val + i;
-	printf("%d \n", val);
+	printf("%d\n", val);
 }
 
 /**
