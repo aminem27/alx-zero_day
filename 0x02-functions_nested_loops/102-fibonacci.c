@@ -8,7 +8,8 @@
 
 int main(void)
 {
-	int i, u1 = 1, u2 = 2, aux;
+	int i;
+	long u1 = 1, u2 = 2, aux;
 
 	printf("%d, ", u1);
 	printf("%d", u2);
@@ -18,7 +19,7 @@ int main(void)
 		aux = u2;
 		u2 = u2 + u1;
 		u1 = aux;
-		printf(", %d", u2);
+		printf(", %ld", u2);
 	}
 
 	return (0);
