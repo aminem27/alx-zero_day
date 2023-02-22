@@ -9,13 +9,13 @@
 
 void jack_bauer(void)
 {
-	int h1, h2, m1, m2;
+	int h, m, h1, h2, m1, m2;
 
-	for (int h = 0; h < 24; h++)
+	for (h = 0; h < 24; h++)
 	{
 		h1 = h % 10;
 		h2 = h / 10;
-		for (int m = 0; m < 60; m++)
+		for (m = 0; m < 60; m++)
 		{
 			m1 = m % 10;
 			m2 = m / 10;
