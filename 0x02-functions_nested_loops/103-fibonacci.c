@@ -11,15 +11,11 @@ int main(void)
 	int i;
 	long u1 = 1, u2 = 2, aux, S = 3;
 
-	for (i = 2; i < 50; i++)
+	while (S < 4000000)
 	{
-
 		aux = u2;
 		u2 = u2 + u1;
-		if (S < 4000000)
-		{
-			S = S + u2;
-		}
+		S = S + u2;
 		u1 = aux;
 	}
 	printf("%ld\n", S);
