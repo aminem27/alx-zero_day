@@ -18,18 +18,18 @@ void print_to_98(int n)
 	{
 		while (val <= 98)
 		{
-			print("%d", val);
+			printf("%d", val);
 			if (val != 98)
-				print(", ");
+				printf(", ");
 			val++;
 		}
 	}
 	else
 		while (val >= 98)
 		{
-			print("%d", val);
+			printf("%d", val);
 			if (val != 98)
-				print(", ");
+				printf(", ");
 			val--;
 		}
 }
