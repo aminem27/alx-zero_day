@@ -19,7 +19,7 @@ int main(void)
 		while (S < 4000000)
 		{
 			S = S + u2;
-			printf("%ld ", S);
+			printf("s=%ld u2=%ld \n", S, u2);
 		}
 		u1 = aux;
 	}
