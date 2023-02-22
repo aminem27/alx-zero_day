@@ -16,7 +16,8 @@ int main(void)
 		aux = u2;
 		u2 = u2 + u1;
 		u1 = aux;
-		S = u1 + u2;
+		if (u2 % 2 == 0 && S < 4000000)
+		S = S + u2;
 		if (S > 4000000)
 			break;
 	}
