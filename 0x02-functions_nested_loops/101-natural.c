@@ -7,7 +7,7 @@
  * Return: Nothing
  */
 
-void som (void)
+void som(void)
 {
 	int val = 0, i;
 
