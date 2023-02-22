@@ -24,8 +24,7 @@ void jack_bauer(void)
 			_putchar(':');
 			_putchar('0' + m2);
 			_putchar('0' + m1);
-			if (!(m == 59 && h == 23))
-				_putchar('\n');
+			_putchar('\n');
 		}
 	}
 
