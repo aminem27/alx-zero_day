@@ -6,7 +6,7 @@
  * @b: an input Number
  * Return: Number
  */
-int mul(int a, int b);
+int mul(int a, int b)
 {
 	int i;
 
