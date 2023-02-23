@@ -2,7 +2,7 @@
 #include <unistd.h>
 /**
  * print_diagonal - A function that print diagonal.
- * @n :NUmber 
+ * @n :NUmber
  * Return: Nothing
  */
 void print_diagonal(int n)
