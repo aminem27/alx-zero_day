@@ -35,6 +35,6 @@ void print_number(int n)
 		n = n % i;
 		i = i / 10;
 	}
-	_putchar('0' + (n % 10)+j);
+	_putchar('0' + (n % 10) + j);
 	}
 }
