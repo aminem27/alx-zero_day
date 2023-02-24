@@ -13,7 +13,6 @@ int main(void)
 	{
 		if (val % i == 0 && i != val)
 		{
-			printf("%ld ", i);
 			val = val / i;
 		}
 		else
