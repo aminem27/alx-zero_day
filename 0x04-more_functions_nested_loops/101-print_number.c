@@ -1,5 +1,6 @@
 #include "main.h"
 #include <unistd.h>
+#include <stdio.h>
 /**
  * print_number - A function that print number.
  * @n : Number
@@ -9,10 +10,14 @@ void print_number(int n)
 {
 	int i = 1000000000;
 
-	if (n < 0)
+	if (n == 0)
+		_putchar('0');
+	else
+	{
+		if (n < 0)
 	{
 		_putchar('-');
-		n = -n;
+		n = n * -1;
 	}
 	while (n / i == 0)
 	{
@@ -21,8 +26,10 @@ void print_number(int n)
 	while (i != 1)
 	{
 		_putchar('0' + (n / i));
+		n = n % i;
 		i = i / 10;
 	}
 	_putchar('0' + (n % 10));
+	}
 	_putchar('\n');
 }
