@@ -7,16 +7,17 @@
 int main(void)
 {
 	long int i, n, val = 612852475143;
-	
+
 	n = val / 2;
 	for (i = 2; i < n; i++)
 	{
-		if ( val % i == 0 && i != val)
+		if (val % i == 0 && i != val)
 		{
-			printf("%ld ",i);
+			printf("%ld ", i);
 			val = val / i;
 		}
-		if (val % i == 0 && i == val)
+		else
+			if (i == val)
 			{
 				printf("%ld", i);
 				break;
