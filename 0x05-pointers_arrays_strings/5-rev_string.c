@@ -1,5 +1,5 @@
 #include "main.h"
-#include <string.h>
+#include <stdio.h>
 
 
 /**
@@ -15,8 +15,10 @@ void rev_string(char *s)
 
 	while (s[l] != '\0')
 		l++;
+	printf("%d",l);
 	for (i = 0; i < l; i++)
 	{
+		printf("%d",i);
 		rev[i] = s[l - i - 1];
 	}
 	s = rev;
