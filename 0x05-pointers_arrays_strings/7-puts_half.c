@@ -14,9 +14,8 @@ void puts_half(char *str)
 		len++;
 
 	len -= 1;
-
-sh: 1: q: not found
-		_putchar(str[i]);
+	for (; i < len / 2 ; i++)
+	_putchar(str[i]);
 
 	_putchar('\n');
 }
