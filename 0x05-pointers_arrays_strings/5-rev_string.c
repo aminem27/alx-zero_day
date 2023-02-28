@@ -20,6 +20,5 @@ void rev_string(char *s)
 		rev[i] = s[len - 1 - i];
 		_putchar(rev[i]);
 	}
-	_puts(rev);
 	s = rev;
 }
