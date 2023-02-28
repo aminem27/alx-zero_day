@@ -19,7 +19,7 @@ void rev_string(char *s)
 	{
 		rev[i] = s[len - 1 - i];
 	}
-	rev[len] = '\0'
+	rev[len] = '\0';
 	s = rev;
 	_putchar('\n');
 }
