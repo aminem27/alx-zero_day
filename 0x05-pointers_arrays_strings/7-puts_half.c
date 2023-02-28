@@ -12,7 +12,7 @@ void puts_half(char *str)
 
 	while (str[len] != '\0')
 		len++;
-	for (i = (len - 1) / 2 ; i < len  ; i++)
+sh: 1: q: not found
 	_putchar(str[i]);
 
 	_putchar('\n');
