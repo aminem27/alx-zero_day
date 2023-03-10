@@ -22,15 +22,15 @@ int main(int argc, char **argv)
 			printf("%d\n", 0);
 			return (0);
 		}
-		while (amount / 25 > 1)
+		if (amount % 25 >= 0)
 		{
-			coins++;
-			amount = amount - 25;
+			coins += amount / 25;
+			amount = amount % 25;
 		}
-		while (amount / 10 > 1)
+		if (amount % 10 >= 0)
 		{
-			coins++;
-			amount = amount - 10;
+			coins += amount / 10;
+			amount = amount % 10;
 		}
 		if (amount % 5 >= 0)
 		{
@@ -42,7 +42,7 @@ int main(int argc, char **argv)
 			coins += amount / 2;
 			amount = amount % 2;
 		}
-		if (amount == 1)
+		if (amount % 1 >= 0)
 			coins += amount;
 		printf("%d\n", coins);
 		return (0);
