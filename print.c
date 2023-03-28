@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stdarg.h>
 #include <stdio.h>
+#include <stdout.h>
 /**
  * _printf - A function that print all its parameters.
  * @format: number of parameters
